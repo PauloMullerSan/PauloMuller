@@ -1,6 +1,0 @@
-ports:
-  - port: 3000
-    onOpen: open-preview
-tasks:
-  - before: cd playground/1st-game
-    command: nvm install 13.3.0 && npm install && npm start
